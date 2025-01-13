@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "coding-challenge-python"
+version = "0.1"
+authors = [
+    { name = "Arjan Molenaar", email = "amolenaar@xebia.com" },
+]
+readme = "README.md"
+requires-python = ">=3.8"
+
+# For ease of use, add pytest here
+dependencies = [
+    "pytest>=7.2"
+]
