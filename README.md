@@ -35,7 +35,7 @@ You can run all the tests by entering the following in your (bash) terminal:
 
 ```sh
 $ python -m venv .venv
-$ .venv/bin/activate
+$ .venv/bin/pip install -e .
 $ .venv/bin/pytest
 ```
 
