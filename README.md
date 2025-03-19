@@ -34,9 +34,15 @@ The objectives for this assignment is:
 You can run all the tests by entering the following in your (bash) terminal:
 
 ```sh
-$ python -m venv .venv
-$ .venv/bin/pip install -e .
-$ .venv/bin/pytest
+# MacOS / Linux
+python -m venv .venv
+.venv/bin/pip install -e .
+.venv/bin/pytest
+
+# Windows
+python -m venv .venv
+.venv\Scripts\pip install -e .
+.venv\Scripts\pytest
 ```
 
 ### Good luck!
